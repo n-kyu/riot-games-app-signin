@@ -5,4 +5,4 @@
 
 <h3 align="center"><a href="https://n-kyu.github.io/riot-games-app-signin//">Click to view the project</a></h3>
 
-## I made this just for fun and training HTML, CSS
+<h2 align="center">I made this just for fun and training HTML, CSS</h2>
