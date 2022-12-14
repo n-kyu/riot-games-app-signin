@@ -1,0 +1,87 @@
+.signin__icons {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.icon__image {
+  width: 20px;
+}
+
+.icons__button {
+  width: 25%;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: 2px solid;
+}
+
+/* sign in icons*/
+.icons__button:nth-child(1) {
+  background-color: var(--blue);
+}
+.icons__button:nth-child(2) {
+  background-color: var(--white);
+  border-color: var(--light-grey);
+}
+
+.icons__button:nth-child(3) {
+  background-color: var(--black);
+}
+
+.icons__button:nth-child(4) {
+  background-color: var(--green);
+}
+
+/* sign in icons with hover */
+.icons__button:nth-child(1):hover {
+  background-color: var(--blue-hover);
+}
+
+.icons__button:nth-child(2):hover {
+  background-color: var(--white-hover);
+}
+.icons__button:nth-child(4):hover {
+  background-color: var(--green-hover);
+}
+
+.icons__button:nth-child(1),
+.icons__button:nth-child(3),
+.icons__button:nth-child(4) {
+  border: none;
+}
+
+.signin__button {
+  width: 65px;
+  height: 65px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--red);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+
+.signin__button svg {
+  fill: var(--white);
+  width: 80%;
+}
+
+.signin__button:disabled {
+  background-color: var(--whitesmoke);
+  border: 2px solid var(--light-grey);
+}
+
+.signin__button:disabled svg {
+  fill: var(--light-grey);
+}
+
+@media screen and (max-width: 500px) {
+  .signin__button {
+    width: 85px;
+    height: 85px;
+  }
+}

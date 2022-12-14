@@ -1,0 +1,22 @@
+@import url(signin/signin.css);
+@import url(signin/button.css);
+@import url(signin/checkbox.css);
+
+:root {
+  --white: #fff;
+  --whitesmoke: #f9f9f9;
+  --light-grey: #ececec;
+  --grey: #c4c4c4;
+  --medium-grey: #a7a7a7;
+  --deep-grey: #343434;
+  --black: #000000;
+  --blue: #1b77f3;
+  --blue-hover: #1a68cf;
+  --red: #cf3c3f;
+  --green: #107c10;
+  --green-hover: #0c5d0c;
+}
+
+main {
+  background-image: url(../image/wallpaper.jpg);
+}
